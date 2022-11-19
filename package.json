@@ -1,6 +1,6 @@
 {
   "name": "@corneflex/pluggy-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "source": "src/index",
   "module": "lib/index",
@@ -31,7 +31,7 @@
     "react": "^18.2.0",
     "typescript": "^4.9.3"
   },
-  "browser":{
+  "browser": {
     "child_process": false
   }
 }
