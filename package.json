@@ -1,0 +1,34 @@
+{
+  "name": "@corneflex/pluggy-core",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "source": "src/index",
+  "module": "lib/index",
+  "types": "lib/index.d.ts",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn clean && tsc -b tsconfig.json",
+    "clean": "rimraf lib"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "typescript": "^4.9.3"
+  }
+}
